@@ -1,0 +1,10 @@
+@font-face {
+  font-family: adaywithoutsun;
+  src: url(/fonts/adaywithoutsun.otf);
+}
+
+h1 {
+  font-family: adaywithoutsun;
+  font-size: 90px;
+  color: #99cccc;
+}
