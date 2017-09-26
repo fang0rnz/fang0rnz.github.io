@@ -2,9 +2,19 @@
   font-family: adaywithoutsun;
   src: url(/fonts/adaywithoutsun.otf);
 }
+@font-face {
+  font-family: upc;
+  src: url(/fonts/upcdl.ttf);
+}
 
 h1 {
   font-family: adaywithoutsun;
   font-size: 90px;
   color: #99cccc;
+}
+
+h2 {
+  font-family: upc;
+  font-size: 30px;
+  color: black solid;
 }
