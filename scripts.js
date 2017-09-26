@@ -1,5 +1,7 @@
 $('.gallery-container').slick({
-  dots: true,
+  dots: false,
+  autoplay: true,
+  arrows: false,
   infinite: true,
   speed: 500,
   fade: true,
