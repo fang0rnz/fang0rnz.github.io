@@ -1,0 +1,23 @@
+{
+  "name": "lucas-sartm.github.io",
+  "version": "1.0.0",
+  "description": "mockup portfolio website",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-sartm/lucas-sartm.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-sartm/lucas-sartm.github.io/issues"
+  },
+  "homepage": "https://github.com/lucas-sartm/lucas-sartm.github.io#readme",
+  "dependencies": {
+    "slick-carousel": "^1.7.1"
+  }
+}
