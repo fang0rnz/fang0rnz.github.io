@@ -22,5 +22,11 @@ h2 {
   font-family: upc;
   font-size: 30px;
   color: black solid;
+  margin-left: 45%;
+  padding-top: 0px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+h2:first-child {
+  margin-top: 0px;
 }
