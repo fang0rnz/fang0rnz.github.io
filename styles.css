@@ -11,11 +11,14 @@
   flex-direction: column;
 }
 
-h1 {
-  font-family: adaywithoutsun;
-  font-size: 90px;
-  color: #99cccc;
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+.logo {
+}
+* {
+  font-family: upc;
+}
+
+.header-navigator {
+  font-size: 30px;
 }
 
 h2 {
