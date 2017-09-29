@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/lucas-sartm/lucas-sartm.github.io#readme",
   "dependencies": {
+    "install": "^0.10.1",
+    "lg-thumbnail.js": "^1.0.0",
+    "lightgallery.js": "^1.0.1",
     "slick-carousel": "^1.7.1"
   }
 }
