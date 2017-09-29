@@ -7,6 +7,10 @@
   src: url(/fonts/upcdl.ttf);
 }
 
+.header {
+  flex-direction: column;
+}
+
 h1 {
   font-family: adaywithoutsun;
   font-size: 90px;

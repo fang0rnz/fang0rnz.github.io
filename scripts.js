@@ -6,7 +6,4 @@ $(document).ready(function() {
       enabled: true,
     },
   });
-
-  // MixItUp 2
-  $('#container').mixItUp();
 });
