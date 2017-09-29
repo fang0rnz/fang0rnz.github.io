@@ -82,13 +82,16 @@ hr.divider {
   text-transform: uppercase;
   cursor: pointer;
 }
+.single-portfolio {
+  position: relative;
+}
 .single-portfolio a {
   display: block;
   line-height: 0;
   position: relative;
   margin-top: 10%;
 }
-.single-portfolio a::before {
+.single-portfolio a:before {
   background: #000 none repeat scroll 0 0;
   content: '';
   height: 100%;
@@ -99,22 +102,25 @@ hr.divider {
   transition: all 0.3s ease 0s;
   width: 100%;
 }
-.single-portfolio:hover a::before {
+
+.single-portfolio-overlay {
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 1);
   opacity: 0.5;
-  transform: scale(1);
-}
-.single-portfolio a::after {
   color: #fff;
-  content: 'nome';
   font-size: 60px;
+  top: 0;
   left: 0;
   position: absolute;
   right: 0;
   text-align: center;
-  top: 50%;
-  transform: scale(0);
-  transition: all 0.3s ease 0s;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  cursor: pointer;
 }
-.single-portfolio:hover a::after {
-  transform: scale(1);
+.single-portfolio-overlay:hover {
+  opacity: 0.5;
 }
